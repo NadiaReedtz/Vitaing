@@ -1,12 +1,12 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: black;
+            background-color: #232323;
             font-family: Helvetica, sans-serif;
         }
 
         .navbar {
-            background:black;
+            background: none;
             overflow: hidden;
         }
 
@@ -19,9 +19,16 @@
             text-decoration: none;
         }
 
-        h1{
+        h1, p{
             margin: 50px 50px 0 50px;
             color: white;
-            font-size: 48px;
             font-weight: 400;
+        }
+
+        h1{
+            font-size: 44px;
+        }
+
+        p{
+            font-size: 18px;
         }
