@@ -19,11 +19,9 @@
             text-decoration: none;
         }
 
-        .navbar a:hover {
-            background-color: white;
-        }
-
-        .content {
-            padding: 20px;
+        h1{
+            margin: 50px 50px 0 50px;
             color: white;
+            font-size: 48px;
+            font-weight: 100;
         }
