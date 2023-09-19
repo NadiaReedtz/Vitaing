@@ -121,3 +121,41 @@ p{
 #billede1 {
   margin-top: 70px;
 }
+
+#afdelinger{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.afdeling{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.droparrow{
+    height: 12px;
+    margin: 10px 0 0 5px;
+}
+
+.information{
+    display: none;
+    background-color: #313131;
+    padding: 10px;
+}
+
+.information p, li, b{
+    font-size: 16px;
+    color: white;
+}
+
+.boldtxt{
+    font-weight: bold;
+}
+
+button{
+    background: none;
+    border: none;
+}
