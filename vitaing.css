@@ -74,4 +74,11 @@
         .information{
             display: block;
             background-color: #313131;
+            padding: 10px;
+        }
+
+        .information p, li, b{
+            font-size: 16px;
+            color: white;
+            font-weight: 100;
         }
