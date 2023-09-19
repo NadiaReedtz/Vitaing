@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="vitaing.css">
+    <script src="showinfo.js" defer></script>
     <title>Job</title>
 </head>
 <body>
@@ -20,37 +21,114 @@
     </section>
     <section id="afdelinger">
         <div class="afdeling">
-            <h2>VITA Esbjerg<img class="droparrow" src="img/arrow.svg" alt="Pil ned"></h2>
-            <div class="information">
-                <p>Søger i øjeblikket:</p>
+            <h2>VITA Esbjerg <button onclick="showInfo()"><img class="droparrow" src="img/arrow.svg" alt="Pil ned"></button></h2>
+            <div class="information" id="esbjerg">
+                <p class="boldtxt">Søger i øjeblikket:</p>
                 <li>Projektleder</li>
-                <b>Kontakt:</b>
-                <b>Rikke Dahl Ørskov</b> 
+                <p class="boldtxt">Kontakt:</p>
+                <p class="boldtxt">Rikke Dahl Ørskov</p> 
+                <p>Afdelingschef</p>
+                <p>3126 3373</p>
+                <p>rd@vitaing.dk</p>
             </div>
         </div>
         <div class="afdeling">
             <h2>VITA Vejle<img class="droparrow" src="img/arrow.svg" alt="Pil ned"></h2>
             <div class="information">
-                <p>Søger i øjeblikket:</p>
-                
+                <p class="boldtxt">Søger i øjeblikket:</p>
+                <li>Projektleder</li>
+                <li>Brandrådgiver</li>
+                <p class="boldtxt">Kontakt:</p>
+                <p class="boldtxt">Anja Eskildsen</p> 
+                <p>Afdelingschef</p>
+                <p>Installationer</p>
+                <p>3114 9395</p>
+                <p>ave@vitaing.dk</p>
+                <p class="boldtxt">Brian Pedersen</p> 
+                <p>Afdelingschef</p>
+                <p>Konstruktioner</p>
+                <p>2163 8454</p>
+                <p>brp@vitaing.dk</p>
+                <p class="boldtxt">Henriette Voss</p> 
+                <p>Afdelingschef</p>
+                <p>Anlæg</p>
+                <p>3112 5828</p>
+                <p>hv@vitaing.dk</p>
             </div>
         </div>
         <div class="afdeling">
             <h2>VITA Aarhus<img class="droparrow" src="img/arrow.svg" alt="Pil ned"></h2>
             <div class="information">
-                <p>Søger i øjeblikket:</p>
+                <p class="boldtxt">Søger i øjeblikket:</p>
+                <li>Bygherrerådgiver</li>
+                <li>Projektleder</li>
+                <p>Brandrådgiver</p>
+                <p class="boldtxt">Kontakt:</p>
+                <p class="boldtxt">Lars Lomholt Nielsen</p> 
+                <p>Afdelingschef</p>
+                <p>3011 3118</p>
+                <p>lln@vitaing.dk</p>
             </div>
         </div>
         <div class="afdeling">
             <h2>VITA Odense<img class="droparrow" src="img/arrow.svg" alt="Pil ned"></h2>
             <div class="information">
-                <p>Søger i øjeblikket:</p>
+                <p class="boldtxt">Søger i øjeblikket:</p>
+                <li>Projektleder, byggeri</li>
+                <li>Projektleder, afløbsteknik</li>
+                <li>Ingeniør, afløbsteknik</li>
+                <p class="boldtxt">Kontakt:</p>
+                <p class="boldtxt">Jakob Friborg</p> 
+                <p>Afdelingschef</p>
+                <p>Konstruktioner</p>
+                <p>5160 3892</p>
+                <p>jafn@vitaing.dk</p>
+                <p class="boldtxt">Thomas Madsen</p> 
+                <p>Afdelingschef</p>
+                <p>Installationer</p>
+                <p>5160 3876</p>
+                <p>thom@vitaing.dk</p>
+                <p class="boldtxt">Thomas Bundgaard</p> 
+                <p>Afdelingschef</p>
+                <p>Anlæg</p>
+                <p>2171 2333</p>
+                <p>tbu@vitaing.dk</p>
             </div>
         </div>
         <div class="afdeling">
             <h2>VITA København<img class="droparrow" src="img/arrow.svg" alt="Pil ned"></h2>
             <div class="information">
-                <p>Søger i øjeblikket:</p>
+                <p class="boldtxt">Søger i øjeblikket:</p>
+                <li>Bygherrerådgiver</li>
+                <li>Projektledere</li>
+                <li>Commissioning-ingeniør</li>
+                <li>Brandrådgiver</li>
+                <p class="boldtxt">Kontakt:</p>
+                <p class="boldtxt">Bilal Nassar</p> 
+                <p>Afdelingschef</p>
+                <p>Bygherrerådgiver</p>
+                <p>6179 6971</p>
+                <p>bn@vitaing.dk</p>
+                <p class="boldtxt">Jørgen Vandborg Andersen</p> 
+                <p>Afdelingschef</p>
+                <p>El</p>
+                <p>6179 9341</p>
+                <p>jva@vitaing.dk</p>
+                <p class="boldtxt">Kamilla Würtz</p> 
+                <p>Afdelingschef</p>
+                <p>HVAC</p>
+                <p>3126 2987</p>
+                <p>ksr@vitaing.dk</p>
+                <p class="boldtxt">Kasper Schou-Rosenbom</p> 
+                <p>Afdelingschef</p>
+                <p>Konstruktioner</p>
+                <p>3126 6928</p>
+                <p>ksr@vitaing.dk</p>
+                <p class="boldtxt">Susanne Wrist-Jensen</p> 
+                <p>Afdelingschef</p>
+                <p>Brand</p>
+                <p>3112 8781</p>
+                <p>swj@vitaing.dk</p>
             </div>
         </div>
     </section>
