@@ -20,7 +20,6 @@
         }
 
         h1, p, h2{
-            margin: 50px 50px 0 50px;
             color: white;
             font-weight: 400;
         }
@@ -37,6 +36,18 @@
             font-size: 22px;
         }
 
-        .droparrow{
+        #intro{
+            margin: 50px 50px 0 50px;
+        }
+
+        #afdelinger{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
             
+        }
+        
+        .droparrow{
+            height: 12px;
         }
