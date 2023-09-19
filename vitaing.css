@@ -48,6 +48,7 @@
             font-size: 22px;
         }
 
+<<<<<<< Updated upstream
         #intro{
             margin: 50px 50px 0 50px;
         }
@@ -58,6 +59,45 @@
             align-items: center;
             margin: 10px;
             
+=======
+        .droparrow{
+
+        }
+
+        .info1 {
+          width: 600px;
+          float: left;
+        }
+
+        .info2 {
+          width: 600px;
+          float: left;
+        }
+
+        .prins {
+          height: 400px;
+          width: 600px;
+          float: right;
+          margin-right: 40px;
+        }
+
+        .prins2 {
+          height: 400px;
+          width: 600px;
+          float: left;
+          margin-left: 40px;
+        }
+
+        .div1 {
+          float: left;
+
+        }
+
+        .div2 {
+          display: flex;
+          margin-top: 100px;
+          clear: left;
+>>>>>>> Stashed changes
         }
 
         .afdeling{
