@@ -44,6 +44,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+            
         }
 
         .keyword-text {
@@ -56,16 +57,11 @@ body {
         }
 
 
-        h1, p, h2{
-            color: white;
-            font-weight: 400;
-        }
-
-
-h1, p, h2,{
+h1, p, h2{
     color: white;
     font-weight: 400;
 }
+
 
 h1{
     font-size: 44px;
